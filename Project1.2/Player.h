@@ -8,7 +8,8 @@
 
 #ifndef Project1_2_Player_h
 #define Project1_2_Player_h
-
+#include "globals.h"
+#include "Pit.h"
 
 class Pit;  // This is needed to let the compiler know that Pit is a
 // type name, since it's mentioned in the Snake declaration.

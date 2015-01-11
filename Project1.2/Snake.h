@@ -10,6 +10,8 @@
 #define Project1_2_Snake_h
 
 #include "Pit.h"
+#include "globals.h"
+
 
 class Snake
 {
