@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		3759046D1A61FE9000FB2681 /* Snake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Snake.h; sourceTree = "<group>"; };
 		3759046F1A62043C00FB2681 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		375904711A62063500FB2681 /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 		37C24F5D1A61F68200F42DF9 /* Project1.2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project1.2; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C24F601A61F68200F42DF9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,6 +63,7 @@
 				37C24F601A61F68200F42DF9 /* main.cpp */,
 				3759046D1A61FE9000FB2681 /* Snake.h */,
 				3759046F1A62043C00FB2681 /* Player.h */,
+				375904711A62063500FB2681 /* Game.h */,
 			);
 			path = Project1.2;
 			sourceTree = "<group>";

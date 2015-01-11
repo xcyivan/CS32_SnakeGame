@@ -16,6 +16,7 @@ using namespace std;
 
 #include "Snake.h"
 #include "Player.h"
+#include "Game.h"
 
 ///////////////////////////////////////////////////////////////////////////
 // Manifest constants
@@ -72,19 +73,7 @@ private:
     int     m_nSnakes;
 };
 
-class Game
-{
-public:
-    // Constructor/destructor
-    Game(int rows, int cols, int nSnakes);
-    ~Game();
-    
-    // Mutators
-    void play();
-    
-private:
-    Pit* m_pit;
-};
+
 
 ///////////////////////////////////////////////////////////////////////////
 //  Snake implementation
