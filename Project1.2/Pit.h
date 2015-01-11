@@ -10,6 +10,10 @@
 #ifndef Project1_2_Pit_h
 #define Project1_2_Pit_h
 
+#include "globals.h"
+#include <string>
+using namespace std;
+
 class Player;
 class Snake;
 

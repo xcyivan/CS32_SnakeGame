@@ -9,7 +9,7 @@
 #ifndef Project1_2_Snake_h
 #define Project1_2_Snake_h
 
-class Pit;
+#include "Pit.h"
 
 class Snake
 {
