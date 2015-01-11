@@ -9,6 +9,9 @@
 #ifndef Project1_2_Game_h
 #define Project1_2_Game_h
 
+#include "globals.h"
+#include "Pit.h"
+#include "Player.h"
 class Pit;
 
 class Game

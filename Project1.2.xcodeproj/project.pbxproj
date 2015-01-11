@@ -10,6 +10,7 @@
 		3759046B1A61FD3400FB2681 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37C24F601A61F68200F42DF9 /* main.cpp */; };
 		375904751A62252F00FB2681 /* Snake.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375904741A62252F00FB2681 /* Snake.cpp */; };
 		375904771A6228B700FB2681 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375904761A6228B700FB2681 /* Player.cpp */; };
+		375904791A6229F600FB2681 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375904781A6229F600FB2681 /* Game.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,7 @@
 		375904731A62073300FB2681 /* Pit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pit.h; sourceTree = "<group>"; };
 		375904741A62252F00FB2681 /* Snake.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Snake.cpp; sourceTree = "<group>"; };
 		375904761A6228B700FB2681 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		375904781A6229F600FB2681 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
 		37C24F5D1A61F68200F42DF9 /* Project1.2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project1.2; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C24F601A61F68200F42DF9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +71,7 @@
 				37C24F601A61F68200F42DF9 /* main.cpp */,
 				375904721A6206B500FB2681 /* globals.h */,
 				375904711A62063500FB2681 /* Game.h */,
+				375904781A6229F600FB2681 /* Game.cpp */,
 				375904731A62073300FB2681 /* Pit.h */,
 				3759046D1A61FE9000FB2681 /* Snake.h */,
 				3759046F1A62043C00FB2681 /* Player.h */,
@@ -137,6 +140,7 @@
 				375904751A62252F00FB2681 /* Snake.cpp in Sources */,
 				3759046B1A61FD3400FB2681 /* main.cpp in Sources */,
 				375904771A6228B700FB2681 /* Player.cpp in Sources */,
+				375904791A6229F600FB2681 /* Game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
