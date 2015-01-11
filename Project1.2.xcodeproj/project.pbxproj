@@ -12,6 +12,7 @@
 		375904771A6228B700FB2681 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375904761A6228B700FB2681 /* Player.cpp */; };
 		375904791A6229F600FB2681 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 375904781A6229F600FB2681 /* Game.cpp */; };
 		3759047C1A622B2400FB2681 /* utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3759047A1A622B2400FB2681 /* utilities.cpp */; };
+		3759047E1A622BC900FB2681 /* Pit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3759047D1A622BC900FB2681 /* Pit.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +37,7 @@
 		375904761A6228B700FB2681 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
 		375904781A6229F600FB2681 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
 		3759047A1A622B2400FB2681 /* utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utilities.cpp; sourceTree = "<group>"; };
+		3759047D1A622BC900FB2681 /* Pit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pit.cpp; sourceTree = "<group>"; };
 		37C24F5D1A61F68200F42DF9 /* Project1.2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project1.2; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C24F601A61F68200F42DF9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,11 +77,12 @@
 				375904721A6206B500FB2681 /* globals.h */,
 				375904711A62063500FB2681 /* Game.h */,
 				375904781A6229F600FB2681 /* Game.cpp */,
-				375904731A62073300FB2681 /* Pit.h */,
 				3759046D1A61FE9000FB2681 /* Snake.h */,
 				3759046F1A62043C00FB2681 /* Player.h */,
 				375904741A62252F00FB2681 /* Snake.cpp */,
 				375904761A6228B700FB2681 /* Player.cpp */,
+				375904731A62073300FB2681 /* Pit.h */,
+				3759047D1A622BC900FB2681 /* Pit.cpp */,
 			);
 			path = Project1.2;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				3759047C1A622B2400FB2681 /* utilities.cpp in Sources */,
 				375904751A62252F00FB2681 /* Snake.cpp in Sources */,
 				3759046B1A61FD3400FB2681 /* main.cpp in Sources */,
+				3759047E1A622BC900FB2681 /* Pit.cpp in Sources */,
 				375904771A6228B700FB2681 /* Player.cpp in Sources */,
 				375904791A6229F600FB2681 /* Game.cpp in Sources */,
 			);

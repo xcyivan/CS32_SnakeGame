@@ -11,6 +11,8 @@
 #define Project1_2_Pit_h
 
 #include "globals.h"
+#include "Player.h"
+#include "Snake.h"
 #include <string>
 using namespace std;
 

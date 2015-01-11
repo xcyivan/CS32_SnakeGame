@@ -11,7 +11,7 @@
 
 #include "Pit.h"
 #include "globals.h"
-
+class Pit;
 
 class Snake
 {
