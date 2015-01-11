@@ -18,42 +18,7 @@ using namespace std;
 #include "Player.h"
 #include "Game.h"
 #include "globals.h"
-
-///////////////////////////////////////////////////////////////////////////
-// Type definitions
-///////////////////////////////////////////////////////////////////////////
-
-
-class Pit
-{
-public:
-    // Constructor/destructor
-    Pit(int nRows, int nCols);
-    ~Pit();
-    
-    // Accessors
-    int     rows() const;
-    int     cols() const;
-    Player* player() const;
-    int     snakeCount() const;
-    int     numberOfSnakesAt(int r, int c) const;
-    void    display(string msg) const;
-    
-    // Mutators
-    bool   addSnake(int r, int c);
-    bool   addPlayer(int r, int c);
-    bool   destroyOneSnake(int r, int c);
-    bool   moveSnakes();
-    
-private:
-    int     m_rows;
-    int     m_cols;
-    Player* m_player;
-    Snake*  m_snakes[MAXSNAKES];
-    int     m_nSnakes;
-};
-
-
+#include "Pit.h"
 
 ///////////////////////////////////////////////////////////////////////////
 //  Snake implementation
