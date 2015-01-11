@@ -88,6 +88,8 @@ void Player::move(int dir)
         m_pit->destroyOneSnake(m_row + rowDelta, m_col + colDelta);
         m_row += 2 * rowDelta;
         m_col += 2 * colDelta;
+        if (m_pit->history().record(m_row, m_col) == false)
+            cerr<<"History::record, Out of boundary! "<<endl;
         if (m_pit->numberOfSnakesAt(m_row, m_col) > 0)  // landed on a snake!
             setDead();
     }

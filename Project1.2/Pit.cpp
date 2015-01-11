@@ -15,6 +15,7 @@ using namespace std;
 ///////////////////////////////////////////////////////////////////////////
 
 Pit::Pit(int nRows, int nCols)
+:m_history(nRows, nCols)
 {
     if (nRows <= 0  ||  nCols <= 0  ||  nRows > MAXROWS  ||  nCols > MAXCOLS)
     {
@@ -177,6 +178,10 @@ bool Pit::moveSnakes()
     
     // return true if the player is still alive, false otherwise
     return ! m_player->isDead();
+}
+
+History& Pit::history() {
+    return m_history;
 }
 
 

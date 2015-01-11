@@ -71,14 +71,21 @@ void Game::play()
     string msg = "";
     while ( ! m_pit->player()->isDead()  &&  m_pit->snakeCount() > 0)
     {
+    LOOP:
         m_pit->display(msg);
         msg = "";
         cout << endl;
-        cout << "Move (u/d/l/r//q): ";
+        cout << "Move (u/d/l/r//h/q): ";
         string action;
         getline(cin,action);
         if (action.size() == 0)
             p->stand();
+        else if (action[0]=='h'){
+            m_pit->history().display();
+            cout<<"Press enter to continue"<<endl;
+            cin.ignore(10000,'\n');
+            goto LOOP;
+        }
         else
         {
             switch (action[0])
@@ -94,6 +101,7 @@ void Game::play()
                 case 'r':
                     p->move(decodeDirection(action[0]));
                     break;
+                
             }
         }
         m_pit->moveSnakes();

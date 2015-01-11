@@ -13,6 +13,7 @@
 #include "globals.h"
 #include "Player.h"
 #include "Snake.h"
+#include "History.h"
 #include <string>
 using namespace std;
 
@@ -33,6 +34,7 @@ public:
     int     snakeCount() const;
     int     numberOfSnakesAt(int r, int c) const;
     void    display(string msg) const;
+    History& history();
     
     // Mutators
     bool   addSnake(int r, int c);
@@ -46,6 +48,7 @@ private:
     Player* m_player;
     Snake*  m_snakes[MAXSNAKES];
     int     m_nSnakes;
+    History m_history;
 };
 
 
